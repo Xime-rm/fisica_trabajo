@@ -1,0 +1,252 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.logo img {
+    height: 130px; 
+    width: 130px;
+    border: none; 
+    border-radius: 5px; 
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+}
+
+.menu ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.menu ul li {
+    display: inline; 
+    margin-left: 20px; 
+}
+
+.menu ul li:first-child {
+    margin-left: 0; 
+}
+
+.menu ul li a {
+    color: #fff; 
+    text-decoration: none; 
+   
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px; 
+    display: flex; 
+    justify-content: center; 
+}
+
+nav ul li {
+    display: inline-block; 
+    margin: 10px; 
+}
+
+nav ul li:first-child {
+    margin-left: 0; 
+}
+
+nav ul li:last-child {
+    margin-right: 0; 
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333; 
+    transition: color 0.3s, background-color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #fff; 
+    background-color: #007bff; 
+}
+
+
+/* Estilos del header */
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header img {
+    height: 50px;
+    vertical-align: middle;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos de la sesión informativa */
+#sesion-informativa {
+    background-color: #181818;;
+    padding: 50px 0;
+}
+
+#sesion-informativa h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container1 {
+  color: #fff;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.images img {
+    width: 200px;
+    margin: 0 10px;
+    border: none; 
+    border-radius: 5px; 
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+}
+h1{
+    text-align: center;
+}
+
+
+
+.botones-calculadores button {
+    margin: 0; 
+    width: auto; 
+    height: auto; 
+    font-size: 20px; 
+    border-width: 2px;
+    border-style: double;
+    border-color: #fff;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    margin: 20px; 
+}
+
+.botones-calculadores button:hover {
+    border-color: #333;
+    color: #333;
+}
+
+#container_simulador {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 20px auto;
+    background-color: #000;
+  }
+  
+  #track {
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    background-color: gray;
+    top: 95px;
+    margin-top: 180px;
+  }
+  #car  {
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    top: 80px;
+    left: 0;
+    margin-top: 150px;
+}
+
+#car img{
+    width: 70px;
+    height: 50px;
+}
+
+h2{
+   text-align: center;
+   color: #fff;
+   margin-bottom: 10px;
+}
+
+.imagen_formulas {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.imagen_formulas img {
+    width: 600px;
+    height: 400px;
+    border: 2px solid #000;
+    border-radius: 3rem;
+    margin-right: 20px;
+}
+
+.resultado {
+    font-size: 18px;
+    font-weight: bold;
+    color: blue;
+    margin-top: 10px;
+  }
+  
+.container_formulario{
+    background-color: #181818;
+}
+
+
+/* Estilos del footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
